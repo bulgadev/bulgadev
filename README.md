@@ -7,7 +7,7 @@ Highly versatile and results-driven developer with 4 years of experience, specia
 
 ## 🛠️ Tech Stack
 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 
 
 ## Core Skills
@@ -17,7 +17,6 @@ Highly versatile and results-driven developer with 4 years of experience, specia
 *   JavaScript
 *   Java
 *   C / C++
-*   Shell
 
 ### Backend Frameworks
 *   Flask
@@ -47,12 +46,12 @@ Advanced trading modular engine.
 A website designed for posting blogs and stories to the public, currently in early development. (Fullstack react + python crud)
 *   [Repository](https://github.com/bulgadev/Bloggrr)
 
-### Bloggrr
+### SiliconScraper
 A advanced tool made for scraping, and analysing best tech market deals. Using python, playwright, vitejs, postgreeSql, and pandas.
 (Still in very early development)
 *   [Repository](https://github.com/bulgadev/SiliconScraper)
 
-### Bloggrr
+### PyZaar
 A python pyside 6 application, made to visualize, filter, and flip the hypixel skyblock bazaar.
 (Still in very early development)
 *   [Repository](https://github.com/bulgadev/PyZaar)
