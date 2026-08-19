@@ -2,7 +2,7 @@
 
 # Bulga
 
-**Systems software, AI tooling, and self-hosted products.**
+**Systems software, AI tooling, and self hosted products.**
 
 Brazil-based developer working across Go, Rust, Swift, Python, TypeScript, and C++.
 
