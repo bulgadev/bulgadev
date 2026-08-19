@@ -12,10 +12,10 @@ Brazil-based developer working across Go, Rust, Swift, Python, TypeScript, and C
 
 ## What I Build
 
-I like software that sits close to the machine and solves a real problem:
+I like software that can be server'ed and run anywhere just with a browser, or native tools that actually solves a real problem:
 
 - Local-first tools that keep data and control on the user's machine
-- Self-hosted systems with clear operational boundaries
+- Self hosted systems
 - AI workflows that produce inspectable, reproducible output
 - Developer tools for storage, agents, telemetry, and automation
 
@@ -34,12 +34,12 @@ I like software that sits close to the machine and solves a real problem:
 
 ## Engineering Preferences
 
-- Make the failure modes visible.
+- Keep the backend modular to work with any frontend
 - Prefer local and reversible operations.
 - Keep boundaries explicit between experimental and production code.
 - Ship working slices, then harden them with tests and real usage.
 
-Some repositories are early engineering snapshots. Their READMEs state their current maturity and intended safety boundaries.
+Some repositories are early engineering snapshots, most are not polished at all to be honest. Their READMEs state their current maturity and intended safety boundaries.
 
 ## Current Stack
 
