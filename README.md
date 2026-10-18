@@ -4,7 +4,7 @@
 
 **I build backend-heavy products end to end: APIs, AI and media pipelines, billing, and the UI on top.**
 
-Brazil · Open to freelance projects · [@LinkyDevv on X](https://x.com/LinkyDevv)
+Brazil · Open to freelance projects · [bulgaaw.com](https://bulgaaw.com) · [me@bulgaaw.com](mailto:me@bulgaaw.com)
 
 </div>
 
@@ -26,7 +26,7 @@ Both are commercial products, so their code is private. Each repository below is
 
 ### [Learnix](https://github.com/bulgadev/learnix)
 
-An AI study tutor for Brazilian ENEM students: tutor chat, versioned notes, adaptive practice and flashcards. [Live at learnix.app](https://learnix.app).
+An AI study tutor for Brazilian ENEM students: tutor chat, versioned notes, adaptive practice and flashcards. In development, [preview online](https://learnix.bulga.top).
 
 <a href="https://github.com/bulgadev/learnix">
 <picture>
@@ -74,4 +74,6 @@ AI video dubbing with cloned voices and a transcript-first editor, where you fix
 
 ## Get in touch
 
-Have a project in mind? Message me on [X (@LinkyDevv)](https://x.com/LinkyDevv). A short description of what you want built and your timeline is plenty to start with.
+Have a project in mind? Email [me@bulgaaw.com](mailto:me@bulgaaw.com) or message me on [X (@LinkyDevv)](https://x.com/LinkyDevv). A short description of what you want built and your timeline is plenty to start with.
+
+More about the work, and how a project with me goes, at **[bulgaaw.com](https://bulgaaw.com)**.
