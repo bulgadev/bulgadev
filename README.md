@@ -1,53 +1,77 @@
 <div align="center">
 
-# Bulga
+# Hi, I'm Bulga
 
-**Systems software, AI tooling, and self hosted products.**
+**I build backend-heavy products end to end: APIs, AI and media pipelines, billing, and the UI on top.**
 
-Brazil-based developer working across Go, Rust, Swift, Python, TypeScript, and C++.
-
-[GitHub](https://github.com/bulgadev) · [X](https://x.com/LinkyDevv)
+Brazil · Open to freelance projects · [@LinkyDevv on X](https://x.com/LinkyDevv)
 
 </div>
 
-## What I Build
+## What I can build for you
 
-I like software that can be server'ed and run anywhere just with a browser, or native tools that actually solves a real problem:
+- **Backends and APIs.** Go and Python services with clean data models, background jobs that survive crashes, and auth and billing (Stripe) that handle money carefully.
+- **AI features that are dependable and affordable.** Streaming chat, structured generation with automatic review, cost metering against plan budgets, and pipelines whose output can be inspected and reproduced.
+- **Media pipelines.** Audio and video processing with ffmpeg, speech-to-text, translation and voice synthesis behind small, swappable provider interfaces.
+- **Product UI.** Server-rendered Go or Next.js interfaces with light and dark themes, built to be fast and clear.
+- **Systems tools.** Small, fast Rust utilities that sit close to the operating system.
 
-- Local-first tools that keep data and control on the user's machine
-- Self hosted systems
-- AI workflows that produce inspectable, reproducible output
-- Developer tools for storage, agents, telemetry, and automation
+## Featured projects
 
-## Selected Projects
+Both are commercial products, so their code is private. Each repository below is a public showcase with the product tour, screenshots and an engineering write-up.
 
-| Project | What it is |
-| --- | --- |
-| [Tchebets](https://github.com/bulgadev/tchebets-open) | Experimental pari-mutuel market platform with separate services, accounts, wallets, and devnet plumbing. |
-| [Econowatt](https://github.com/bulgadev/econowatt-open) | Adaptive GPU energy, thermal, fan, and power control for Linux hardware. |
-| [Juycy](https://github.com/bulgadev/juycy-open) | JuiceFS manager with non-destructive sync, recovery, and a native macOS shell. |
-| [LNsources](https://github.com/bulgadev/lnsources-open) | Native macOS resource monitor and local telemetry recorder. |
-| [Asseter](https://github.com/bulgadev/asseter-open) | Bounded AI workbench for inspectable SVG, raster, and web assets. |
-| [Learnix](https://github.com/bulgadev/learnix-open) | AI study workspace with adaptive quizzes, notes, citations, and saved progress. |
-| [Dubbline](https://github.com/bulgadev/dubbline-open) | Local-first video dubbing pipeline for transcription, translation, voice synthesis, and timing. |
-| [Shakehands](https://github.com/bulgadev/shakehands-open) | Linux evdev service for filtering keyboard bounce and accidental mouse clicks. |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Engineering Preferences
+### [Learnix](https://github.com/bulgadev/learnix)
 
-- Keep the backend modular to work with any frontend
-- Prefer local and reversible operations.
-- Keep boundaries explicit between experimental and production code.
-- Ship working slices, then harden them with tests and real usage.
+An AI study tutor for Brazilian ENEM students: tutor chat, versioned notes, adaptive practice and flashcards. [Live at learnix.app](https://learnix.app).
 
-Some repositories are early engineering snapshots, most are not polished at all to be honest. Their READMEs state their current maturity and intended safety boundaries.
+<a href="https://github.com/bulgadev/learnix">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bulgadev/learnix/main/assets/hero-dark.jpg">
+  <img alt="Learnix study workspace" src="https://raw.githubusercontent.com/bulgadev/learnix/main/assets/hero-light.jpg">
+</picture>
+</a>
 
-## Current Stack
+**Highlights:** durable chat turns with a live event stream · exam questions written, then blind-reviewed by a second pass · real-cost usage metering per plan.
 
-`Go` `Rust` `Swift` `Python` `TypeScript` `C++` `SQLite` `Postgres` `Redis` `Docker` `Tauri` `SwiftUI`
+`Go` `SQLite` `htmx` `Stripe`
 
-<div align="center">
+</td>
+<td width="50%" valign="top">
 
-[![GitHub followers](https://img.shields.io/github/followers/bulgadev?style=flat&label=Follow)](https://github.com/bulgadev)
-[![GitHub stars](https://img.shields.io/github/stars/bulgadev?style=flat&label=Profile%20stars)](https://github.com/bulgadev?tab=stars)
+### [Dubbline](https://github.com/bulgadev/dubbline)
 
-</div>
+AI video dubbing with cloned voices and a transcript-first editor, where you fix single lines and only pay to re-voice what you touched.
+
+<a href="https://github.com/bulgadev/dubbline">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bulgadev/dubbline/main/assets/studio-dark.jpg">
+  <img alt="Dubbline studio" src="https://raw.githubusercontent.com/bulgadev/dubbline/main/assets/studio-light.jpg">
+</picture>
+</a>
+
+**Highlights:** translation with a per-line time budget and a fit loop that never cuts speech · content-addressed take cache · lease-based job queue.
+
+`Python` `FastAPI` `PostgreSQL` `Next.js` `ffmpeg`
+
+</td>
+</tr>
+</table>
+
+## Stack
+
+`Go` `Python` `Rust` `TypeScript` `PostgreSQL` `SQLite` `FastAPI` `Next.js` `htmx` `Docker` `ffmpeg` `Stripe`
+
+## How I work
+
+- Keep the backend modular so any frontend can sit on top of it.
+- Make expensive or irreversible operations explicit, quoted before they run, and safe to retry.
+- Write down the design: each product above has docs that match the code.
+- Ship a working slice first, then harden it with tests and real usage.
+
+## Get in touch
+
+Have a project in mind? Message me on [X (@LinkyDevv)](https://x.com/LinkyDevv). A short description of what you want built and your timeline is plenty to start with.
